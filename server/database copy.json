@@ -1,0 +1,43 @@
+{
+  "gamedata": {
+    "pepper": 10
+  },
+  "improvements": [
+    {
+      "name": "Helping hand",
+      "value": 1,
+      "count": 0,
+      "description": "Grows more peppers per second"
+    },
+    {
+      "name": "Fertilizer",
+      "value": 4,
+      "count": 0,
+      "description": "Grows more peppers per second"
+    },
+    {
+      "name": "Hydroponics",
+      "value": 6,
+      "count": 0,
+      "description": "A smart irrigation system to grow substantially more peppers per second."
+    },
+    {
+      "name": "Trout",
+      "value": 200,
+      "count": 0,
+      "description": ""
+    },
+    {
+      "name": "Pike",
+      "value": 300,
+      "count": 0,
+      "description": ""
+    },
+    {
+      "name": "Walleye",
+      "value": 400,
+      "count": 0,
+      "description": ""
+    }
+  ]
+}
