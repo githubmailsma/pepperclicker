@@ -3,9 +3,10 @@
     <div class="col">
       <div class="col-title">Harvesting</div>
       <div class="col-content">
-        <img src="/assets/pepper.gif" width="250px" (click)="ClickHarvest(1)" />
+        <img src="./assets/pepper.gif" width="250px" (click)="ClickHarvest(1)" />
         <div>
           <p>Click the pepper to harvest it!</p>
+          <div class="cheat">
           <p>
             <button class="btn btn-primary" (click)="ClickHarvest(1)">
               Harvest
@@ -27,6 +28,7 @@
             </button>
           </p>
         </div>
+        </div>
       </div>
     </div>
 
@@ -43,7 +45,7 @@
             Peppers per second:
             {{ peppersPerSecond | number: "1.1-1" }}
           </p>
-          <p><img src="/assets/growing.gif" width="250px" /></p>
+          <p><img src="./assets/growing.gif" width="250px" /></p>
         </div>
       </div>
     </div>

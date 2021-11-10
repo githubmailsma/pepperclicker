@@ -32,8 +32,8 @@ export class ImprovementListComponent implements OnInit {
 
       this.peppers = this.peppers - imp.value;
 
-      //this.UpdateSubscriptions();
       this.DoUpdateSubscriptions.emit(imp.value);
+
       imp.value = imp.value * this.impPercentage;
     }
   }
