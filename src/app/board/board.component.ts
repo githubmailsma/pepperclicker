@@ -40,7 +40,7 @@ export class BoardComponent implements OnInit {
         "value": 100,
         "count": 0,
         "increase": 1,
-        "unlocked": false,
+        "unlocked": true,
         "description": "Increase plant growth giving extra 1 peppers per second"
       },
       {
