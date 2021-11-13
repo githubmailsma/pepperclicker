@@ -1,0 +1,21 @@
+<div class="specials">
+  <div class="specials-box">
+    <div
+      class="special-item"
+      *ngFor="let special of specialsList"
+      (click)="BuySpecial(special.name)"
+      [class.notdisplayed]="!ShouldDisplay(peppers)"
+    >
+      <div [class.greyed]="(!special.unlocked) || (peppers < special.value)" >
+        <span>{{ special.name }}</span>
+        <span class="special-image-span">
+          <img
+            class="special-image"
+            src="/assets/specials/{{ special.imageUrl }}.png"
+            alt=""
+        /></span>
+        <span>{{ special.value }}</span>
+      </div>
+    </div>
+  </div>
+</div>

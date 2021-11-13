@@ -1,7 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~bootstrap/dist/css/bootstrap.css';
+
 
 body {
   background-color:rgb(41, 40, 40);
   color: white;
+
+}
+
+.notdisplayed {
+  display: none;
 }
