@@ -55,7 +55,7 @@
   "specials": [
     {
       "name": "Special 1",
-      "value": 1,
+      "value": 500,
       "count": 0,
       "unlocked": true,
       "description": "Grows 1 pepper per 10 seconds",
@@ -63,7 +63,7 @@
     },
     {
       "name": "Special 2",
-      "value": 2,
+      "value": 1000,
       "count": 0,
       "unlocked": true,
       "description": "Grows 1 pepper per 10 seconds",
@@ -79,7 +79,7 @@
     },
     {
       "name": "Special 4",
-      "value": 15,
+      "value": 15000,
       "count": 0,
       "unlocked": true,
       "description": "Grows 1 pepper per 10 seconds",
@@ -87,7 +87,7 @@
     },
     {
       "name": "Special 5",
-      "value": 15,
+      "value": 150000,
       "count": 0,
       "unlocked": true,
       "description": "Grows 1 pepper per 10 seconds",
@@ -95,7 +95,7 @@
     },
     {
       "name": "Special 6",
-      "value": 15,
+      "value": 250000,
       "count": 0,
       "unlocked": true,
       "description": "Grows 1 pepper per 10 seconds",
@@ -103,7 +103,7 @@
     },
     {
       "name": "Special 7",
-      "value": 15,
+      "value": 1500000,
       "count": 0,
       "unlocked": true,
       "description": "Grows 1 pepper per 10 seconds",
@@ -111,7 +111,7 @@
     },
     {
       "name": "Special 8",
-      "value": 15,
+      "value": 5000000,
       "count": 0,
       "unlocked": true,
       "description": "Grows 1 pepper per 10 seconds",
@@ -119,7 +119,7 @@
     },
     {
       "name": "Special 9",
-      "value": 15,
+      "value": 15000000,
       "count": 0,
       "unlocked": true,
       "description": "Grows 1 pepper per 10 seconds",
@@ -127,7 +127,7 @@
     },
     {
       "name": "Special 10",
-      "value": 15,
+      "value": 25000000,
       "count": 0,
       "unlocked": true,
       "description": "Grows 1 pepper per 10 seconds",
