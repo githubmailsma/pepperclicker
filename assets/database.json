@@ -1,0 +1,138 @@
+{
+  "gamedata": {
+    "pepper": 10
+  },
+  "improvements": [
+    {
+      "name": "Helping hand",
+      "value": 15,
+      "count": 0,
+      "increase": 0.1,
+      "unlocked": true,
+      "description": "Grows 1 pepper per 10 seconds"
+    },
+    {
+      "name": "Fertilizer",
+      "value": 100,
+      "count": 0,
+      "increase": 1,
+      "unlocked": false,
+      "description": "Increase plant growth giving extra 1 peppers per second"
+    },
+    {
+      "name": "Hydroponics",
+      "value": 1100,
+      "count": 0,
+      "increase": 8,
+      "unlocked": false,
+      "description": "A smart irrigation system to grow 8 more peppers per second"
+    },
+    {
+      "name": "Harvesting robot",
+      "value": 12000,
+      "count": 0,
+      "increase": 15,
+      "unlocked": false,
+      "description": "An advanced harvesting machine that can pick 15 peppers per second"
+    },
+    {
+      "name": "Advanced Genetics",
+      "value": 250000,
+      "count": 0,
+      "increase": 25,
+      "unlocked": false,
+      "description": "Manipulate nucleoids to change the pepper DNS and increase the harvest by 25 peppers per second"
+    },
+    {
+      "name": "Pepper cloner",
+      "value": 1000000,
+      "count": 0,
+      "increase": 200,
+      "unlocked": false,
+      "description": "Allows peppers to multiply as they grow. Grows 200 extra peppers per second"
+    }
+  ],
+  "specials": [
+    {
+      "name": "Special 1",
+      "value": 1,
+      "count": 0,
+      "unlocked": true,
+      "description": "Grows 1 pepper per 10 seconds",
+      "imageUrl": "1"
+    },
+    {
+      "name": "Special 2",
+      "value": 2,
+      "count": 0,
+      "unlocked": true,
+      "description": "Grows 1 pepper per 10 seconds",
+      "imageUrl": "2"
+    },
+    {
+      "name": "Special 3",
+      "value": 10000,
+      "count": 0,
+      "unlocked": true,
+      "description": "Grows 1 pepper per 10 seconds",
+      "imageUrl": "3"
+    },
+    {
+      "name": "Special 4",
+      "value": 15,
+      "count": 0,
+      "unlocked": true,
+      "description": "Grows 1 pepper per 10 seconds",
+      "imageUrl": "4"
+    },
+    {
+      "name": "Special 5",
+      "value": 15,
+      "count": 0,
+      "unlocked": true,
+      "description": "Grows 1 pepper per 10 seconds",
+      "imageUrl": "5"
+    },
+    {
+      "name": "Special 6",
+      "value": 15,
+      "count": 0,
+      "unlocked": true,
+      "description": "Grows 1 pepper per 10 seconds",
+      "imageUrl": "6"
+    },
+    {
+      "name": "Special 7",
+      "value": 15,
+      "count": 0,
+      "unlocked": true,
+      "description": "Grows 1 pepper per 10 seconds",
+      "imageUrl": "7"
+    },
+    {
+      "name": "Special 8",
+      "value": 15,
+      "count": 0,
+      "unlocked": true,
+      "description": "Grows 1 pepper per 10 seconds",
+      "imageUrl": "8"
+    },
+    {
+      "name": "Special 9",
+      "value": 15,
+      "count": 0,
+      "unlocked": true,
+      "description": "Grows 1 pepper per 10 seconds",
+      "imageUrl": "9"
+    },
+    {
+      "name": "Special 10",
+      "value": 15,
+      "count": 0,
+      "unlocked": true,
+      "description": "Grows 1 pepper per 10 seconds",
+      "imageUrl": "10"
+    }
+
+  ]
+}
