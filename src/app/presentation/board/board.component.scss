@@ -1,17 +1,6 @@
 .cheat {
   display: none;
 }
-.col-title {
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: xx-large;
-  color: yellowgreen;
-}
-
-.col-content {
-  text-align: center;
-  padding-top: 20px;
-}
 
 .improvement {
   display: flex;
@@ -26,18 +15,7 @@
             0 3px 14px 2px rgba(0, 0, 0, 0.05);
 }
 
-.peppercounter {
-  font-size: 66px;
-  font-weight: bold;
-}
 
-.fade-in {
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
-}
 @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
@@ -63,8 +41,3 @@
   100% {opacity:1;}
 }
 
-.contentbox {
-  border: solid 1px #ddd;
-  border-radius: 4px;
-  margin-bottom: 10px;
-}

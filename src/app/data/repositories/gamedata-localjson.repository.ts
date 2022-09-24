@@ -1,8 +1,9 @@
 import { from, Observable, of } from "rxjs";
 import { Improvement } from "src/app/core/models/improvement.model";
+import { SellingSkill } from "src/app/core/models/selling-skills.model";
 import { Special } from "src/app/core/models/special.model";
 import { GameDataRepository } from "src/app/core/repositories/gamedata.repository";
-import gameData from "../../../assets/database.json";
+import gameData from "../../../assets/database.json" ;
 
 export class GameDataJsonRepository extends GameDataRepository {
 
@@ -14,5 +15,8 @@ export class GameDataJsonRepository extends GameDataRepository {
     return of(gameData["specials"]);
   }
 
+  public getAllsellingSkills(): Observable<SellingSkill[]> {
+    return of(gameData["sellingSkills"]);
+  }
 
 }

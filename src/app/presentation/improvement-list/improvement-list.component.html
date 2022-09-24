@@ -1,10 +1,23 @@
-<div *ngFor="let improvement of improvementList">
-  <div *ngIf="improvement.unlocked || peppers >= improvement.value">
+<div class="row">
+  <div class="col">
+    Name
+  </div>
+  <div class="col">
+    Price
+  </div>
+  <div class="col">
+    Owned
+  </div>
+</div>
+<div *ngFor="let improvement of playerData.improvementList">
+
+  <div class="fade-in" *ngIf="improvement.unlocked || playerData.peppers >= improvement.value">
     <ng-template #tipContent>{{improvement.description}}!</ng-template>
-    <div
+
+      <div
       [ngbTooltip]="tipContent"
       class="row improvement"
-      [class.greyed]="improvement.unlocked && peppers < improvement.value"
+      [class.greyed]="improvement.unlocked && playerData.peppers < improvement.value"
       (click)="BuyImprovement(improvement.name)"
       placement="bottom"
       >

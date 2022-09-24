@@ -1,0 +1,30 @@
+<div class="col-content">
+  <img
+    src="./assets/pepper.gif"
+    width="250px"
+    (click)="ClickHarvest(1)"
+  />
+
+<p>Click the pepper to harvest it!</p>
+<div *ngIf="playerData.cheatsEnabled">
+  <p>
+    <button class="btn btn-primary" (click)="ClickHarvest(1)">
+      Harvest
+    </button>
+  </p>
+  <p>
+    <button class="btn btn-primary" (click)="ClickHarvest(10)">
+      Harvest x10
+    </button>
+  </p>
+  <p>
+    <button class="btn btn-primary" (click)="ClickHarvest(100)">
+      Harvest x100
+    </button>
+  </p>
+  <p>
+    <button class="btn btn-primary" (click)="ClickHarvest(1000000)">
+      Harvest x1.000.000
+    </button>
+  </p>
+</div>

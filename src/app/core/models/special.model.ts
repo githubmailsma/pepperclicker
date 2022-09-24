@@ -5,7 +5,9 @@ export class Special {
     public count: number,
     public unlocked:boolean,
     public description:string,
-    public imageUrl: string
+    public target: string,
+    public factor: number,
+    public imageUrl: string,
 
     )
 

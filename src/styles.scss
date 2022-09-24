@@ -1,12 +1,63 @@
 /* You can add global styles to this file, and also import other style files */
 
 
-body {
-  background-color:rgb(41, 40, 40);
-  color: white;
 
+
+body {
+  background: linear-gradient(-45deg, #412219, #3b0909, #323509, #07250c);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  color: white;
+  overflow-x: hidden;
 }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 
 .notdisplayed {
   display: none;
+}
+
+.contentbox {
+  border: solid 1px #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: rgba(39, 39, 39, 0.562);
+}
+
+.col-title {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: xx-large;
+  color: yellowgreen;
+}
+
+.col-content {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.greyed {
+  background: lightgrey !important;
+  color: rgb(144, 144, 144);
+}
+
+
+.fade-in {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
 }

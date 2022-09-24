@@ -16,8 +16,7 @@ import { PlayerDataLocalStorageRepository } from './data/repositories/playerdata
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NavbarComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,

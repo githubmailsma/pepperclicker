@@ -1,0 +1,58 @@
+<div class="col-title">Earning Gold</div>
+<div class="col-content contentbox">
+
+  <div class="row">
+    <div class="col-md-12" style="margin: 2px;">
+      <p class="skillheader">Pepper selling opportunities</p>
+
+      <div class="row">
+        <div class="col">
+          Name
+        </div>
+        <div class="col">
+          Price
+        </div>
+        <div class="col">
+          Conversion rate
+        </div>
+        <div class="col">
+          Owned
+        </div>
+      </div>
+
+      <div *ngFor="let sellingSkill of playerData.sellingSkillsList">
+
+        <div class="fade-in" *ngIf="sellingSkill.unlocked">
+          <ng-template #tipContent>{{sellingSkill.description}}!</ng-template>
+
+          <div
+            [ngbTooltip]="tipContent"
+            class="row improvement"
+            [class.greyed]="sellingSkill.unlocked && playerData.peppers < sellingSkill.value"
+            (click)="BuySellingSkill(sellingSkill.name)"
+            placement="bottom"
+            >
+            <div class="col">
+              {{ sellingSkill.name }}
+            </div>
+            <div class="col">
+              {{ sellingSkill.value | number: "1.0-2" }}
+            </div>
+            <div class="col">
+              {{ sellingSkill.conversionFactor | number: "1.0-2" }}
+            </div>
+
+            <div class="col">
+              {{ sellingSkill.count }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-12">Recruiting skills</div>
+    </div>
+  </div>
+</div>

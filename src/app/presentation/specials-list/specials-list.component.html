@@ -2,16 +2,17 @@
   <div class="specials-box">
     <div
       class="special-item"
-      *ngFor="let special of specialsList"
+      *ngFor="let special of playerData.specialsList"
       (click)="BuySpecial(special.name)"
-      [class.notdisplayed]="!ShouldDisplay(peppers)"
+      [class.notdisplayed]="special.count > 0"
+      [ngbTooltip]="special.description + ' - ' + special.value"
     >
-      <div [class.greyed]="(!special.unlocked) || (peppers < special.value)" >
-        <span>{{ special.name }}</span>
+      <div [class.greyed]="(!special.unlocked) || (playerData.peppers < special.value)" >
+        <div class="special-name">{{ special.name }}</div>
         <span class="special-image-span">
           <img
             class="special-image"
-            src="/assets/specials/{{ special.imageUrl }}.png"
+            src="./assets/specials/{{ special.imageUrl }}.png"
             alt=""
         /></span>
         <span>{{ special.value }}</span>

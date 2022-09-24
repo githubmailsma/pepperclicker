@@ -8,7 +8,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "db": "json-server --watch server\\database.json"
+    "db": "json-server --watch server\\database.json",
+    "build-and-deploy-gh-pages": "ng build --prod --base-href \"https://githubmailsma.github.io/pepperclicker/\" && npx ngh --dir dist/idleclicker-ui"
   },
   "private": true,
   "dependencies": {
@@ -34,6 +35,7 @@
     "@angular-devkit/build-angular": "~12.0.0",
     "@angular/cli": "~12.0.0",
     "@angular/compiler-cli": "~12.2.13",
+    "@angular/localize": "^12.2.13",
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
     "jasmine-core": "~3.10.0",
